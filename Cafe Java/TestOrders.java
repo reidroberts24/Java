@@ -1,54 +1,67 @@
-import java.util.ArrayList;
-
 public class TestOrders {
-    public static void main(String[] args) {
     
+    public static void main(String[] args) {
         // Menu items
-        Item item1 = new Item();
-        item1.name = "mocha";
-        item1.price = 3.75;
-        Item item2 = new Item();
-        item2.name = "latte";
-        item2.price = 4.50;
-        Item item3 = new Item();
-        item3.name = "drip coffee";
-        item3.price = 1.75;
-        Item item4 = new Item();
-        item4.name = "cappuccino";
-        item4.price = 4.25;
+        Item item1 = new Item("mocha", 3.75);
+        Item item2 = new Item("latte", 4.50);
+        Item item3 = new Item("drip coffee", 1.75);
+        Item item4 = new Item("cappuccino", 4.25);
 
-        // Order variables -- order1, order2 etc.
-        Order order1 = new Order();
-        order1.name = "Cindhuri";
-        Order order2 = new Order();
-        order2.name = "Jimmy";
-        Order order3 = new Order();
-        order3.name = "Noah";
-        Order order4 = new Order();
-        order4.name = "Sam";
+        // 1. Create 2 orders for unspecified guests.
+        Order guestOrder1 = new Order();
+        Order guestOrder2 = new Order();
 
-        //add item1 to order2 item list
-        order2.items.add(item1);
-        order2.total += item1.price;
+        // 2. Create 3 orders using the overloaded constructor.
+        Order order1 = new Order("Cindhuri");
+        Order order2 = new Order("Jimmy");
+        Order order3 = new Order("Noah");
 
-        order3.items.add(item4);
-        order3.total += item4.price;
+        // 3. Add at least 2 items to each order.
+        guestOrder1.addItem(item1);
+        guestOrder1.addItem(item3);
 
-        order4.items.add(item2);
-        order4.total += item2.price;
+        guestOrder2.addItem(item2);
+        guestOrder2.addItem(item3);
 
-        order1.ready = true;
+        order1.addItem(item1);
+        order1.addItem(item4);
 
-        order4.items.add(item2);
-        order4.items.add(item2);
-        order4.total += item2.price*2;
+        order2.addItem(item2);
+        order2.addItem(item3);
 
-        order2.ready = true;
-        // Application Simulations
-        System.out.println(order2);
-        // Use this example code to test various orders' updates
-        System.out.printf("Name: %s\n", order1.name);
-        System.out.printf("Total: %s\n", order1.total);
-        System.out.printf("Ready: %s\n", order1.ready);
+        order3.addItem(item1);
+        order3.addItem(item2);
+        
+        // 4. Test getStatusMessage method by setting some orders to ready.
+        guestOrder1.setReady(true);
+        guestOrder2.setReady(false);
+        order1.setReady(true);
+        order2.setReady(false);
+        order3.setReady(true);
+
+        System.out.println("Guest Order 1 Status: " + guestOrder1.getStatusMessage());
+        System.out.println("Guest Order 2 Status: " + guestOrder2.getStatusMessage());
+        System.out.println("Order 1 Status: " + order1.getStatusMessage());
+        System.out.println("Order 2 Status: " + order2.getStatusMessage());
+        System.out.println("Order 3 Status: " + order3.getStatusMessage());
+
+        // 5. Test the total.
+        System.out.println("Guest Order 1 Total: $" + guestOrder1.getOrderTotal());
+        System.out.println("Guest Order 2 Total: $" + guestOrder2.getOrderTotal());
+        System.out.println("Order 1 Total: $" + order1.getOrderTotal());
+        System.out.println("Order 2 Total: $" + order2.getOrderTotal());
+        System.out.println("Order 3 Total: $" + order3.getOrderTotal());
+
+        // 6. Call the display method on all orders.
+        System.out.println("\nDisplaying Guest Order 1:");
+        guestOrder1.display();
+        System.out.println("\nDisplaying Guest Order 2:");
+        guestOrder2.display();
+        System.out.println("\nDisplaying Order 1:");
+        order1.display();
+        System.out.println("\nDisplaying Order 2:");
+        order2.display();
+        System.out.println("\nDisplaying Order 3:");
+        order3.display();
     }
 }
