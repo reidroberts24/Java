@@ -35,7 +35,7 @@ public class Order {
             total += this.items.get(i).getPrice();
         }
         return total;
-    }
+    } 
 
     public void display() {
         System.out.println("Customer Name: " + this.name);

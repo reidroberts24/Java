@@ -1,7 +1,7 @@
 public class Item {
     private String name;
     private double price;
-
+    private int index;
     public Item(String name, double price) {
         this.name = name;
         this.price = price;
@@ -27,4 +27,12 @@ public class Item {
         return this.price;
     }
     
+    // add index getters and setters
+    public void setIndex(int index) {
+        this.index = index;
+    }
+
+    public int getIndex() {
+        return this.index;
+    }
 }
