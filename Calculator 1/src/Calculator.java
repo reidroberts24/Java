@@ -5,16 +5,22 @@ public class Calculator implements Serializable {
 	private double operandTwo;
 	private String operation;
 	private double result;
+	private boolean isLastInputNumber = false;
+	private boolean isLastInputOperation = false;
 	
 	public Calculator() {
 		
 	}
 	
-	public boolean performOperation() {
+	public boolean performOperation(double num) {
 		if (operation.equals("+")) {
 			result = operandOne + operandTwo;
 		} else if (operation.equals("-")) {
 			result = operandOne - operandTwo;
+		} else if (operation.equals("-")) {
+			result = operandOne * operandTwo;
+		} else if (operation.equals("-")) {
+			result = operandOne / operandTwo;
 		} else {
 			System.out.println("Operation not supported!");
 			return false;
@@ -22,6 +28,12 @@ public class Calculator implements Serializable {
 		return true;
 	}
 	
+	public void performOperation(String op) {
+		if (!isLastInputNumber) {
+			System.out.println("Invalid operation sequence.");
+			return;
+		} 
+	}
 	
 	public double getResults() {
 		return result;
