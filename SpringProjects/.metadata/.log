@@ -1518,3 +1518,741 @@ java.lang.Exception: Resource '/reid.DaikichiPathVariables/src/main/java/com/exa
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-08-21 18:08:28.927 -----------------------------------------------
+eclipse.buildId=4.16.1.202210240748
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-08-21 18:08:32.819
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:08:43.612
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:08:43.612
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:08:43.612
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-21 18:08:46.668
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Reid Roberts'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:16:08.221
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:16:08.221
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:16:08.221
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:16:08.222
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:16:08.222
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.eclipse.ui 2 2 2023-08-21 18:17:15.965
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:20:39.026
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:20:39.026
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:23:07.247
+!MESSAGE An internal error occurred during: "Install download3".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.repository.Transport.download(java.net.URI, java.io.OutputStream, org.eclipse.core.runtime.IProgressMonitor)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport()" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:23:07.248
+!MESSAGE An internal error occurred during: "Install download1".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.repository.Transport.download(java.net.URI, java.io.OutputStream, org.eclipse.core.runtime.IProgressMonitor)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport()" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:23:07.347
+!MESSAGE An internal error occurred during: "File Transport Reader".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getLogService(Activator.java:202)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.log(Activator.java:213)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:200)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:199)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:23:07.347
+!MESSAGE An internal error occurred during: "Install download0".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.osgi.signedcontent.SignedContentFactory.getSignedContent(java.io.File)" because "verifierFactory" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verifyContent(SignatureVerifier.java:84)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verify(SignatureVerifier.java:66)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.close(SignatureVerifier.java:115)
+	at org.eclipse.equinox.internal.provisional.p2.artifact.repository.processing.ProcessingStep.close(ProcessingStep.java:93)
+	at org.eclipse.equinox.internal.p2.artifact.processors.checksum.MessageDigestProcessingStep.close(MessageDigestProcessingStep.java:58)
+	at org.eclipse.equinox.internal.provisional.p2.artifact.repository.processing.ProcessingStep.close(ProcessingStep.java:93)
+	at org.eclipse.equinox.internal.p2.artifact.processors.checksum.MessageDigestProcessingStep.close(MessageDigestProcessingStep.java:58)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.reportStatus(SimpleArtifactRepository.java:1281)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:673)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:23:07.368
+!MESSAGE An internal error occurred during: "Install download2".
+!STACK 0
+java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@66648d3b
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:50)
+	at org.eclipse.equinox.p2.core.IProvisioningAgent.getService(IProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport(SimpleArtifactRepository.java:1096)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2023-08-21 18:23:07.369
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-08-21 18:23:07.369
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-08-21 18:23:07.369
+!MESSAGE Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@66648d3b
+!STACK 0
+java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@66648d3b
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:50)
+	at org.eclipse.equinox.p2.core.IProvisioningAgent.getService(IProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.publishDownloadEvent(DownloadManager.java:137)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.fetch(DownloadManager.java:128)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:98)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-08-21 18:23:08.365 -----------------------------------------------
+eclipse.buildId=4.16.1.202210240748
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:23:11.882
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:23:11.882
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:23:11.882
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-21 18:23:14.731
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Reid Roberts'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-08-21 18:23:37.405
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:25:05.208
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:25:05.209
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:25:05.209
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:25:05.209
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2023-08-21 18:25:05.210
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-08-21 18:25:56.661
+!MESSAGE Using unsafe http transport to retrieve http://download.emmet.io/eclipse/updates/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-08-21 18:26:09.652
+!MESSAGE Using unsafe http transport to retrieve http://download.emmet.io/eclipse/updates/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-08-21 18:26:20.342
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,io.emmet.eclipse,1.0.0.201401132323.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-08-21 18:26:20.343
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,io.emmet.eclipse,1.0.0.201401132323.
+!SESSION 2023-08-21 18:26:25.929 -----------------------------------------------
+eclipse.buildId=4.16.1.202210240748
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:26:29.303
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:26:29.303
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:26:29.303
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-21 18:26:31.833
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Reid Roberts'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-08-21 18:27:37.654
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:32:35.405
+!MESSAGE An internal error occurred during: "Install download1".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.repository.Transport.download(java.net.URI, java.io.OutputStream, org.eclipse.core.runtime.IProgressMonitor)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport()" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:32:35.406
+!MESSAGE An internal error occurred during: "Install download0".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.repository.Transport.download(java.net.URI, java.io.OutputStream, org.eclipse.core.runtime.IProgressMonitor)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport()" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:32:35.406
+!MESSAGE An internal error occurred during: "Install download3".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.repository.Transport.download(java.net.URI, java.io.OutputStream, org.eclipse.core.runtime.IProgressMonitor)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport()" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-08-21 18:32:35.407
+!MESSAGE An internal error occurred during: "Install download2".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.internal.p2.repository.Transport.download(java.net.URI, java.io.OutputStream, org.eclipse.core.runtime.IProgressMonitor)" because the return value of "org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getTransport()" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:748)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:672)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:804)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:329)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:299)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:162)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2023-08-21 18:32:35.408
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2023-08-21 18:32:35.408
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,com.ibm.icu,67.1.0.v20200706-1749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.doc.user,1.2.0.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.dtd.ui,1.1.400.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.dtd.ui.infopop,1.0.400.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.dtdeditor.doc.user,1.1.0.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.html.core,1.4.200.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.html.ui,1.1.700.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.html.ui.infopop,1.0.201.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.internet.cache,1.1.0.v202011161431
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.408
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.jsdt.core,2.0.303.v202007221940
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.jsdt.manipulation,1.0.601.v201903222047
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.jsdt.ui,2.1.400.v202204072230
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.jsdt.web.core,1.1.200.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.jsdt.web.support.jsp,1.1.101.v202101180039
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.jsdt.web.ui,1.2.300.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.bower.core,1.0.0.v201901071922
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.bower.ui,1.0.200.v201904210526
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.core,1.1.0.v201901152013
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.eslint.core,1.0.0.v201901071922
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.eslint.ui,1.0.200.v201904210526
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.jshint.core,1.0.1.v201908281850
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.jshint.ui,1.0.200.v201904210526
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.npm.core,1.0.0.v201901071922
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.npm.ui,1.0.100.v201904210526
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.schemaprocessor,1.0.200.v201901071922
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.json.ui,1.0.600.v202103121626
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.json_core.feature,1.1.8.v201909302219
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.json_ui.feature,1.1.10.v202103121626
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.sse.doc.user,1.2.0.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.sse.ui.infopop,1.0.300.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.standard.schemas,1.0.800.v201901071922
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.validation.infopop,1.0.300.v202007131715
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.validation.ui,1.2.601.v202007142017
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.web.ui,1.2.300.v202206160209
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.web.ui.infopop,1.0.300.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.web_core.feature,3.27.0.v202207150226
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.web_js_support.feature,3.22.0.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.web_ui.feature,3.27.0.v202208280234
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.web_userdoc.feature,3.18.0.v202004271556
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.webtools.doc.user,1.0.500.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws,1.1.600.v202007222105
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws.explorer,1.1.0.v202204231557
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws.infopop,1.0.400.v201903050508
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws.parser,1.1.0.v201910301957
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws.service.policy,1.0.450.v201903050508
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws.service.policy.ui,1.0.500.v201903050508
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.ws.ui,1.2.0.v201910301957
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.ws_core.feature,3.26.0.v202205160314
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.ws_ui.feature,3.9.100.v202004082157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.ws_userdoc.feature,3.1.501.v201909051708
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsdl,1.3.0.v201910301957
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsdl.ui,1.3.100.v202004082216
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsdl.ui.doc.user,1.0.850.v201903222115
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsdl.validation,1.3.100.v202205160247
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsi,1.1.400.v202205160247
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsi.ui,1.1.100.v202007221938
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.wsi.ui.doc.user,1.0.750.v201903222115
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xml.ui,1.2.700.v202208280234
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xml.ui.infopop,1.0.400.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.xml_core.feature,3.27.0.v202207150226
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.xml_ui.feature,3.27.0.v202208280234
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.wst.xml_userdoc.feature,3.18.0.v202004271556
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xmleditor.doc.user,1.1.0.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xsd.core,1.2.100.v202008180353
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xsd.ui,1.3.500.v202207121749
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.wst.xsdeditor.doc.user,1.0.800.v201903222120
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.xsd,2.18.0.v20220616-0915
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.xsd.edit,2.11.0.v20200723-0820
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2023-08-21 18:32:35.409
+!MESSAGE No repository found containing: osgi.bundle,org.uddi4j,2.0.5.v200805270300
+!SESSION 2023-08-21 18:32:36.152 -----------------------------------------------
+eclipse.buildId=4.16.1.202210240748
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:32:39.432
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:32:39.432
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:32:39.433
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-21 18:32:41.988
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Reid Roberts'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-08-21 18:33:12.322
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2023-08-21 18:38:19.592 -----------------------------------------------
+eclipse.buildId=4.16.1.202210240748
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:38:24.154
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:38:24.154
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:38:24.154
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-21 18:38:27.175
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Reid Roberts'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2023-08-21 18:38:50.315
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2023-08-21 18:43:07.973
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-21 18:43:07.973
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.wst.json.core 4 4 2023-08-21 19:25:28.731
+!MESSAGE error loading catalog: system_catalog file:C:/Users/Reid Roberts/Desktop/CodingDojo/Java/Java/SpringProjects/.metadata/.plugins/org.eclipse.wst.json.core/system_catalog.xml
+!STACK 0
+org.eclipse.json.provisonnal.com.eclipsesource.json.ParseException: Duplicate key 'url' at 1869:11
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.error(JsonParser.java:378)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.readObject(JsonParser.java:135)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.readValue(JsonParser.java:87)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.readArray(JsonParser.java:114)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.readValue(JsonParser.java:85)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.readObject(JsonParser.java:144)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.readValue(JsonParser.java:87)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonParser.parse(JsonParser.java:66)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonValue.readFrom(JsonValue.java:93)
+	at org.eclipse.json.provisonnal.com.eclipsesource.json.JsonObject.readFrom(JsonObject.java:124)
+	at org.eclipse.wst.json.core.internal.schema.catalog.CatalogSchemastoreReader.readSchemastore(CatalogSchemastoreReader.java:54)
+	at org.eclipse.wst.json.core.internal.schema.catalog.Catalog$SystemCatalogLS.load(Catalog.java:291)
+	at org.eclipse.wst.json.core.internal.schema.catalog.Catalog.load(Catalog.java:489)
+	at org.eclipse.wst.json.core.internal.schema.catalog.CatalogSet.lookupOrCreateCatalog(CatalogSet.java:45)
+	at org.eclipse.wst.json.core.internal.schema.catalog.NextCatalog.getReferencedCatalog(NextCatalog.java:45)
+	at org.eclipse.wst.json.core.internal.schema.catalog.Catalog.resolveSubordinateCatalogs(Catalog.java:542)
+	at org.eclipse.wst.json.core.internal.schema.catalog.Catalog$InternalResolver.resolveSchema(Catalog.java:280)
+	at org.eclipse.wst.json.core.internal.schema.catalog.Catalog.resolveSchema(Catalog.java:587)
+	at org.eclipse.wst.json.core.internal.schema.catalog.JSONCatalogURIResolverExtension.resolve(JSONCatalogURIResolverExtension.java:52)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.ui.internal.hyperlink.XMLHyperlinkDetector.resolveURI(XMLHyperlinkDetector.java:598)
+	at org.eclipse.wst.xml.ui.internal.hyperlink.XMLHyperlinkDetector.getURIString(XMLHyperlinkDetector.java:481)
+	at org.eclipse.wst.xml.ui.internal.hyperlink.XMLHyperlinkDetector.detectHyperlinks(XMLHyperlinkDetector.java:119)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
