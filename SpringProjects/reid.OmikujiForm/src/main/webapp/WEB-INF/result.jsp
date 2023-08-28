@@ -16,12 +16,8 @@
 <body>
 	<div class="container mt-5">
 	    <h2>Omikuji Result</h2>
-	    <p>Number: ${omikuji.number}</p>
-	    <p>City: ${omikuji.city}</p>
-	    <p>Person: ${omikuji.person}</p>
-	    <p>Hobby: ${omikuji.hobby}</p>
-	    <p>Thing: ${omikuji.thing}</p>
-	    <p>Comment: ${omikuji.comment}</p>
+	    <p>In ${omikuji.number} years, you will live in ${omikuji.city} with ${omikuji.person} as your roommate, ${omikuji.hobby} for a living.
+	    The next time you see a ${omikuji.thing}, you will have good luck. Also, ${omikuji.comment}.</p>
 	</div>
 </body>
 </html>
