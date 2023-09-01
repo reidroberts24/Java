@@ -13,18 +13,22 @@ import com.example.demo.services.BookService;
 
 @Controller
 public class BookController {
-	
 	@Autowired
 	BookService bookService;
+
+	
 	@GetMapping("/books/{bookId}")
 	public String show_book(Model model, @PathVariable("bookId") Long bookId) {
-		System.out.println(bookId);
-		Book book = bookService.findBook(bookId);
-		
-		List<Book> books = bookService.allBooks();
-		model.addAttribute("books", books);
-		
+		Book book = bookService.findBook(bookId);		
 		model.addAttribute("book", book);
 		return "show.jsp";
 	}
+	
+	@GetMapping("/books")
+	public String index(Model model) {
+		List<Book> books = bookService.allBooks();
+		model.addAttribute("books", books);
+		return "index.jsp";
+	}
+	
 }
