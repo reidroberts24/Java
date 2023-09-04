@@ -37,6 +37,7 @@
 			            <td><c:out value="${burger.restaurantName}" /></td>
 			            <td><c:out value="${burger.rating}" /></td>
 			            <td><c:out value="${burger.notes}" /></td>
+		            	<td><a href="/burgers/${burger.id}/edit">Edit</a></td> 
 			        </tr>
 			    </c:forEach>
             </tbody>
