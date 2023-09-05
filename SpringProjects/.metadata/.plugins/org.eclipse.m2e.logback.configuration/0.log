@@ -5429,3 +5429,47 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2023-09-04 17:21:02,133 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-09-04 17:21:02,133 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-09-04 17:21:02,135 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.SafeTravels\src\test\resources
+2023-09-05 18:53:20,035 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-09-05 18:53:28,308 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:28,331 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:53:28,335 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.BurgerTracker\src\test\resources
+2023-09-05 18:53:32,499 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:32,510 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:53:32,513 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Counter\src\test\resources
+2023-09-05 18:53:32,859 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:32,866 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:32,870 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DisplayDateApp\src\test\resources
+2023-09-05 18:53:33,228 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:33,234 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:33,239 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.FruityLoops\src\test\resources
+2023-09-05 18:53:33,833 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:33,839 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:53:33,843 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.JPAdemo\src\test\resources
+2023-09-05 18:53:34,235 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:34,259 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:53:34,263 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.OmikujiForm\src\test\resources
+2023-09-05 18:53:34,796 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:34,803 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:53:34,806 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.RenderingBooks\src\test\resources
+2023-09-05 18:53:35,425 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:53:35,480 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:53:35,484 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.SafeTravels\src\test\resources
+2023-09-05 18:55:13,548 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:reid.Relationships:0.0.1-SNAPSHOT @ C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\pom.xml.
+2023-09-05 18:55:14,075 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.Relationships/src/main/java
+2023-09-05 18:55:14,075 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.Relationships/src/main/resources
+2023-09-05 18:55:14,087 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.Relationships/src/main/resources
+2023-09-05 18:55:14,096 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.Relationships/src/test/java
+2023-09-05 18:55:14,818 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-09-05 18:55:14,821 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-05 18:55:14,992 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:reid.Relationships:0.0.1-SNAPSHOT @ C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\pom.xml.
+2023-09-05 18:55:15,435 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.Relationships/src/main/java
+2023-09-05 18:55:15,436 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.Relationships/src/main/resources
+2023-09-05 18:55:15,436 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.Relationships/src/main/resources
+2023-09-05 18:55:15,436 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.Relationships/src/test/java
+2023-09-05 18:55:15,812 [Worker-8: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for reid.Relationships
+2023-09-05 18:55:15,815 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-09-05 18:55:16,159 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:55:16,160 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:55:16,163 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 18:55:16,163 [Worker-10: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of reid.Relationships
+2023-09-05 18:55:16,164 [Worker-10: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for reid.Relationships
