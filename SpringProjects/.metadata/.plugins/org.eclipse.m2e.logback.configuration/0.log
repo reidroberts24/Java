@@ -5473,3 +5473,388 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2023-09-05 18:55:16,163 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
 2023-09-05 18:55:16,163 [Worker-10: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of reid.Relationships
 2023-09-05 18:55:16,164 [Worker-10: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for reid.Relationships
+2023-09-05 18:59:25,985 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:59:25,988 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:59:25,991 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 18:59:36,270 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:59:36,284 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:59:36,287 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:00:19,616 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:00:19,620 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:00:19,623 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:00:38,222 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:00:38,224 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:00:38,227 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:01:25,673 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:01:25,678 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:01:25,681 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:02:01,625 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:02:01,628 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:02:01,631 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:04:27,192 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:04:27,193 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:04:27,196 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:04:30,269 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:04:30,269 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:04:30,272 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:13:08,749 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:13:08,757 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:13:08,759 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:13:21,022 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:13:21,026 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:13:21,028 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:13:32,404 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:13:32,408 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:13:32,411 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:13:43,123 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:13:43,127 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:13:43,129 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:15:04,611 [Worker-19: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:reid.DojosAndNinjas:0.0.1-SNAPSHOT @ C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\pom.xml.
+2023-09-05 19:15:06,265 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.DojosAndNinjas/src/main/java
+2023-09-05 19:15:06,265 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.DojosAndNinjas/src/main/resources
+2023-09-05 19:15:06,274 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.DojosAndNinjas/src/main/resources
+2023-09-05 19:15:06,284 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.DojosAndNinjas/src/test/java
+2023-09-05 19:15:07,527 [Worker-19: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2023-09-05 19:15:07,529 [Worker-19: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-05 19:15:07,668 [Worker-19: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:reid.DojosAndNinjas:0.0.1-SNAPSHOT @ C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\pom.xml.
+2023-09-05 19:15:08,048 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.DojosAndNinjas/src/main/java
+2023-09-05 19:15:08,048 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.DojosAndNinjas/src/main/resources
+2023-09-05 19:15:08,048 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /reid.DojosAndNinjas/src/main/resources
+2023-09-05 19:15:08,049 [Worker-19: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /reid.DojosAndNinjas/src/test/java
+2023-09-05 19:15:08,349 [Worker-19: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for reid.DojosAndNinjas
+2023-09-05 19:15:08,351 [Worker-19: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-09-05 19:15:08,840 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:15:08,841 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:15:08,844 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:15:08,844 [Worker-16: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of reid.DojosAndNinjas
+2023-09-05 19:15:08,845 [Worker-16: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for reid.DojosAndNinjas
+2023-09-05 19:15:08,872 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:15:08,881 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:15:08,883 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.Relationships\src\test\resources
+2023-09-05 19:15:25,434 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:15:25,439 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:15:25,442 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:15:53,642 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:15:53,645 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:15:53,649 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:15:56,718 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:15:56,721 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:15:56,724 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:16:26,634 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:reid.DojosAndNinjas:0.0.1-SNAPSHOT @ C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\pom.xml.
+2023-09-05 19:16:28,017 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:16:28,018 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:16:28,021 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:16:28,021 [Worker-19: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of reid.DojosAndNinjas
+2023-09-05 19:16:28,021 [Worker-19: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for reid.DojosAndNinjas
+2023-09-05 19:16:29,266 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:16:29,268 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:16:29,270 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:16:45,861 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:16:45,863 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:16:45,866 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:16:51,799 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:16:51,814 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:16:51,816 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:16:58,332 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:16:58,335 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:16:58,337 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:17:03,240 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:17:03,248 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:17:03,251 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:17:15,489 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:17:15,493 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:17:15,496 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:17:26,327 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:17:26,330 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:17:26,333 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:18:21,765 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:18:21,769 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:18:21,772 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:18:55,888 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:18:55,891 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:18:55,894 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:19:01,122 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:19:01,126 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:19:01,128 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 19:19:15,334 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:19:15,337 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:19:15,340 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:12:28,300 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:12:28,305 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:12:28,308 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:13:14,128 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:13:14,141 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:13:14,144 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:14:22,490 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:14:22,491 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:14:22,493 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:14:36,263 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:14:36,263 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:14:36,265 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:14:55,976 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:14:55,976 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:14:55,979 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:16:57,615 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:16:57,619 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:16:57,621 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:20:52,083 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:20:52,086 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:20:52,089 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:21:44,085 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:21:44,088 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:21:44,092 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:21:57,775 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:21:57,779 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:21:57,781 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:22:42,241 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:22:42,244 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:22:42,247 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:22:46,536 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:22:46,539 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:22:46,541 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:22:56,101 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:22:56,106 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:22:56,109 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:22:58,274 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:22:58,277 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:22:58,279 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:24:28,695 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:24:28,700 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:24:28,702 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:24:33,369 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:24:33,372 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:24:33,374 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:24:38,537 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:24:38,566 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:24:38,569 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:25:13,487 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:25:13,491 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:25:13,494 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:25:42,909 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:25:42,911 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:25:42,914 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:25:55,005 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:25:55,008 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:25:55,010 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:26:49,233 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:26:49,236 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:26:49,239 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:27:14,509 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:27:14,513 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:27:14,515 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:27:21,451 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:27:21,454 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:27:21,457 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:27:51,816 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:27:51,818 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:27:51,821 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:28:39,876 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:28:39,891 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:28:39,894 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:29:08,743 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:29:08,747 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:29:08,750 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:29:11,037 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:29:11,042 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:29:11,044 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:30:02,299 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:30:02,302 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:30:02,304 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:30:05,339 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:30:05,373 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:30:05,375 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:32:19,392 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:32:19,395 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:32:19,397 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:32:21,535 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:32:21,537 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:32:21,540 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:32:31,715 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:32:31,746 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:32:31,749 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:34:24,774 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:34:24,774 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:34:24,776 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:38:03,132 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:03,132 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:03,134 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:38:16,036 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:16,036 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:16,038 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:38:35,126 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:35,126 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:35,129 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:38:41,977 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:41,977 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:38:41,980 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:40:15,159 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:40:15,159 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:40:15,162 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:40:42,888 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:40:42,888 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:40:42,890 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:41:08,918 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:08,918 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:08,921 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:41:23,732 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:23,732 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:23,735 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:41:28,397 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:28,397 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:28,400 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:41:35,554 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:35,554 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:41:35,556 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:42:15,669 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:42:15,669 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:42:15,672 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:42:21,779 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:42:21,780 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:42:21,782 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:44:01,247 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:01,247 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:01,250 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:44:05,362 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:05,363 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:05,365 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:44:06,379 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:06,379 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:06,383 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:44:14,756 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:14,765 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:44:14,767 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:45:29,481 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:45:29,481 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:45:29,483 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:46:37,423 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:46:37,432 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:46:37,435 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:53:36,244 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:53:36,249 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:53:36,252 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:54:17,295 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:54:17,299 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:54:17,302 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:54:55,123 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:54:55,129 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:54:55,132 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:55:20,229 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:55:20,231 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:55:20,233 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:56:12,485 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:56:12,487 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:56:12,490 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:56:28,012 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:56:28,026 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:56:28,029 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:56:30,062 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:56:30,064 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:56:30,067 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:57:30,569 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:57:30,572 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:57:30,574 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:57:46,555 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:57:46,558 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:57:46,561 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 22:58:04,473 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 22:58:04,475 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 22:58:04,478 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:05:00,803 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:05:00,807 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:05:00,809 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:05:18,755 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:05:18,757 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:05:18,759 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:05:21,729 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:05:21,735 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:05:21,738 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:05:36,329 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:05:36,333 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:05:36,336 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:06:59,260 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:06:59,265 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:06:59,267 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:08:37,217 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:08:37,217 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:08:37,220 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:09:04,728 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:09:04,728 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:09:04,730 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:10:52,241 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:10:52,241 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:10:52,244 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:11:03,080 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:11:03,081 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:11:03,083 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:11:55,022 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:11:55,030 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:11:55,032 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:12:07,207 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:12:07,210 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:12:07,212 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:12:18,253 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:12:18,256 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:12:18,259 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:12:35,242 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:12:35,245 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:12:35,247 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:12:51,675 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:12:51,679 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:12:51,681 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:14:06,766 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:14:06,767 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:14:06,769 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:15:02,874 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:15:02,875 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:15:02,877 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:15:06,089 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:15:06,090 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:15:06,092 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:15:47,933 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:15:47,933 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:15:47,935 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:17:48,049 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:17:48,049 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:17:48,051 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:17:57,897 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:17:57,897 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:17:57,900 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:19:23,529 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:19:23,529 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:19:23,531 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:19:50,357 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:19:50,362 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:19:50,364 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:19:52,428 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:19:52,432 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:19:52,435 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:21:04,027 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:21:04,028 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:21:04,030 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:23:52,811 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:23:52,812 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:23:52,815 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:24:31,075 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:24:31,079 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:24:31,081 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:24:55,542 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:24:55,545 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:24:55,547 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:25:08,338 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 23:25:08,341 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:25:08,344 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:26:11,560 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:26:11,560 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:26:11,562 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:27:23,475 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:27:23,476 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:27:23,478 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:28:30,510 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:28:30,510 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:28:30,512 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:29:21,624 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:29:21,624 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:29:21,626 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
+2023-09-05 23:29:44,107 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:29:44,107 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 23:29:44,109 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Reid Roberts\Desktop\CodingDojo\Java\Java\SpringProjects\reid.DojosAndNinjas\src\test\resources
