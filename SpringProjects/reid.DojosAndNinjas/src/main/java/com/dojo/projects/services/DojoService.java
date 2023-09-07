@@ -14,14 +14,18 @@ public class DojoService {
 	
 	@Autowired
 	DojoRepository dojoRepository;
-	
+    
+	// returns all the dojos
 	public List<Dojo> allDojos() {
 		return dojoRepository.findAll();	
 	}
+	
+	// creates new dojo
 	public Dojo createDojo(Dojo dojo) {
 		return dojoRepository.save(dojo);
 	}
 	
+	// finds single dojo
 	public Dojo findDojo(Long id) {
 		Optional<Dojo> optionalDojo = dojoRepository.findById(id);
 		if (optionalDojo.isPresent()) {
@@ -30,7 +34,8 @@ public class DojoService {
 			return null;
 		}
 	}
-
+	
+	// deletes existing dojo
 	public void deleteDojo(Long id) {
         dojoRepository.deleteById(id);
     }

@@ -15,14 +15,17 @@ public class NinjaService {
 	@Autowired
 	NinjaRepository ninjaRepository;
 	
+	// returns all ninjas
 	public List<Ninja> allNinjas() {
 		return ninjaRepository.findAll();
 	}
-	
+
+	// creates new ninja
 	public Ninja createNinja(Ninja ninja) {
 		return ninjaRepository.save(ninja);
 	}
 	
+	// finds ninja by ID
 	public Ninja findNinja(Long id) {
 		Optional<Ninja> optionalNinja = ninjaRepository.findById(id);
 		if (optionalNinja.isPresent()) {
@@ -32,6 +35,8 @@ public class NinjaService {
 		}
 	}
 	
+	
+	// returns all ninjas
 	public List<Ninja> findNinjasByDojo(Dojo dojo) {
 	    return ninjaRepository.findByDojo(dojo);
 	}

@@ -34,6 +34,31 @@ public class MainController {
 	public String newDojo(@ModelAttribute("dojo") Dojo dojo) {
 		return "new_dojo.jsp";
 	}
+
+	@GetMapping("/ninjas/new")
+	public String newNinja(Model model) {
+		model.addAttribute("dojos", dojoService.allDojos());  // populate the dojos dropdown for ninja form
+		model.addAttribute("ninja", new Ninja());  // blank ninja model attribute for form binding
+		return "new_ninja.jsp";  // the jsp file for ninja creation
+	}
+	
+	@GetMapping("/dojos/{id}")
+	public String showDojo(@PathVariable("id") Long id, Model model) {
+		Dojo dojo = dojoService.findDojo(id);
+		if (dojo != null) {
+			model.addAttribute("dojo", dojo);
+			model.addAttribute("ninjas", ninjaService.findNinjasByDojo(dojo));
+			return "show_dojo.jsp";
+		} else {
+			return "redirect:/";
+		}
+	}
+	
+	@GetMapping("/dojos/delete/{id}")
+	public String deleteDojo(@PathVariable("id") Long id) {
+		dojoService.deleteDojo(id);
+		return "redirect:/";  // redirect to the main page after deletion
+	}
 	
 	@PostMapping("/dojos/new")
 	public String createNewDojo(@Valid @ModelAttribute("dojo") Dojo dojo, BindingResult result) {
@@ -45,24 +70,7 @@ public class MainController {
 		}
 	}
 	
-	@GetMapping("/dojos/{id}")
-	public String showDojo(@PathVariable("id") Long id, Model model) {
-	    Dojo dojo = dojoService.findDojo(id);
-	    if (dojo != null) {
-	        model.addAttribute("dojo", dojo);
-	        model.addAttribute("ninjas", ninjaService.findNinjasByDojo(dojo));
-	        return "show_dojo.jsp";
-	    } else {
-	        return "redirect:/";
-	    }
-	}
 	
-	@GetMapping("/ninjas/new")
-	public String newNinja(Model model) {
-	    model.addAttribute("dojos", dojoService.allDojos());  // populate the dojos dropdown for ninja form
-	    model.addAttribute("ninja", new Ninja());  // blank ninja model attribute for form binding
-	    return "new_ninja.jsp";  // the jsp file for ninja creation
-	}
 	
 	@PostMapping("/ninjas/new")
 	public String createNewNinja(@Valid @ModelAttribute("ninja") Ninja ninja, BindingResult result, Model model) {
@@ -75,10 +83,5 @@ public class MainController {
 		}
 	}
 	
-    @GetMapping("/dojos/delete/{id}")
-    public String deleteDojo(@PathVariable("id") Long id) {
-        dojoService.deleteDojo(id);
-        return "redirect:/";  // redirect to the main page after deletion
-    }
 
 }
